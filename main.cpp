@@ -1197,13 +1197,13 @@ void copygateAND(const int ax,const int ay) {
 	setLine(ax,ay+9,"-   -          - -    \\   -");
 	setLine(ax,ay+10,"-   /          - -   \\    -");
 	setLine(ax,ay+11,"-    /         - -  \\     -");
-	setLine(ax,ay+12,"-     /        -|||| -    -");
+	setLine(ax,ay+12,"-     /        -||||      -");
 	setLine(ax,ay+13,"-   |/ /       \\     \\|   -");
 	setLine(ax,ay+14,"-  \\  - /    \\|     -  /  -");
 	setLine(ax,ay+15,"/  -  -  /  -       -  -  -");
 	setLine(ax,ay+16," |\\   -   / /       -  -  \\");
 	setLine(ax,ay+17,"      \\    / |/     /   /| ");
-	setLine(ax,ay+18," \\||||      /  -     / -   ");
+	setLine(ax,ay+18," \\||||      /  -     /     ");
 	setLine(ax,ay+19,"-            / -      /    ");
 	setLine(ax,ay+20,"-             |-       ||/ ");
 	setLine(ax,ay+21,"-              -          -");
