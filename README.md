@@ -15,6 +15,8 @@ by standupmaths on youtube from 2014`
 
 ## 1. Quick start
 
+![example quadratic Julia set](./_quadratic_juliasets.gif)
+
 Compile the program with any suitable C++ compiler and start it.
 A grid of cells is displayed. 
 
@@ -38,7 +40,6 @@ at the same start time). After some seconds the results fall in.
 The bottommost four pieces are the output, again leftmost and rightmost
 are constant 1 and fall under any input, the left of the middle two is the carry-over
 bit and the right one the result.
-
 
 ## 2. Current limitations in pre-release
 
@@ -68,7 +69,7 @@ Displayed are always 64x40 grid cells. The underlying domino grid contains
 Click in any grid field repeatedly with the left mouse button until the domino 
 piece (or
 the empty field) of choice appears. A field can hold one or two pieces in 
-different orientation (as seen by the symbol /\ e.b.).
+different orientation (e.g. /\ meaning two upright domino pieces in sort of a 90 degree orientation).
 
 ### Setting a start field
 
@@ -84,10 +85,10 @@ piece to generate a specific falling direction.
 
 ### Keyboard controls
 
-F2 - Saves the current field into file "domino.feld"
-F3 - Loads the field from fixed file "domino.feld"
-F5 - redraws the screen.
-F9 - starts the calculation and continues until no further falling piece is present.
+- F2 - Saves the current field into file "domino.feld"
+- F3 - Loads the field from fixed file "domino.feld"
+- F5 - redraws the screen.
+- F9 - starts the calculation and continues until no further falling piece is present.
 
 ### Setting gates, tunnels and result fields
 
@@ -153,3 +154,6 @@ Marc Meidlinger, July 2019
 
 
 5. The 1-bit-adder using XOR and AND
+
+![example quadratic Julia set](./_quadratic_juliasets.gif)
+
