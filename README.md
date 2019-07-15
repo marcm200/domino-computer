@@ -11,11 +11,10 @@ by standupmaths on youtube from 2014`
 2. Current limitations in pre-release
 3. User interface
 4. Contact
-5. The 1-bit-adder as an image
 
 ## 1. Quick start
 
-![example quadratic Julia set](./_quadratic_juliasets.gif)
+![one-bit-adder](./_one_bit_adder_small.gif)
 
 Compile the program with any suitable C++ compiler and start it.
 A grid of cells is displayed. 
@@ -57,7 +56,7 @@ pieces in one field.
 The former in a file, the latter can be inserted at any grid point.
 
 
-## .3. User interface
+## 3. User interface
 
 Displayed are always 64x40 grid cells. The underlying domino grid contains 
 4 pages of that size in the x direction
@@ -96,15 +95,16 @@ piece to generate a specific falling direction.
 
 The software currently supports AND, NAND, XOR, OR and NOT-gates. They can 
 be placed into the
-grid at any position by firstly pressing a specific key (not holding it down) 
+grid at any position by first pressing a specific key (not holding it down) 
 and then clicking with the left mouse button
 into the grid which will become the upper left corner of the gate.
 
-`AND: Ctrl-A
-NAND: Ctrl-B`
-NOT: Ctrl-N`
-OR: Ctrl-O
-XOR: Ctrl-X`
+- `AND: Ctrl-A`
+- `NAND: Ctrl-B`
+- `NOT: Ctrl-N`
+- `OR: Ctrl-O`
+- `XOR: Ctrl-X`
+
 
 #### Tunnels
 
@@ -146,14 +146,10 @@ allows one to move that rectangle with
 all its interior one position by afterwards pressing one of the arrow keys.
 
 
-4. Contact
+## 4. Contact
 
 Direct comments to: marcm200@freenet.de
 
 Marc Meidlinger, July 2019
 
-
-5. The 1-bit-adder using XOR and AND
-
-![example quadratic Julia set](./_quadratic_juliasets.gif)
 
