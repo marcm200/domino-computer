@@ -97,7 +97,7 @@ The software currently supports AND, NAND, XOR, OR and NOT-gates. They can
 be placed into the
 grid at any position by first pressing a specific key (not holding it down) 
 and then clicking with the left mouse button
-into the grid which will become the upper left corner of the gate.
+into the grid cell which will become the upper left corner of the gate.
 
 - `AND: Ctrl-A`
 - `NAND: Ctrl-B`
@@ -137,7 +137,7 @@ in the same key/click order.
 - Erasing a result field is done the same way as marking a field as result.
 
 - Erasing a rectangle of grid cells is done by pressing DEL, then clicking with 
-the left mouse button onto the left upper grid and then onto the right 
+the left mouse button into the left upper grid cell and afterwards into the right 
 bottom corner of a rectangle of choice. All 
 in that area will be removed.
 
