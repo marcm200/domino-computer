@@ -1,3 +1,10 @@
+/*
+
+	Proof-of-principle code: A virtual domino computer (implementation by Marc Meidlinger, 2019)
+	based on a video by standupmaths on youtube: "The 10000 domino computer"
+
+*/
+
 #include <windows.h>
 #include "stdio.h"
 #include "math.h"
